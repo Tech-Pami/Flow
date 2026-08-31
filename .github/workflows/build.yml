@@ -13,7 +13,7 @@ jobs:
 
       - name: Unzip Android project
         run: |
-          unzip Flow_Android_Project-updated-8.zip
+          unzip Flow_Android_Project-updated-10.zip
           mv FlowAPK app-project
 
       - name: Set up Java
