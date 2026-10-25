@@ -16,7 +16,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.7'
-      - name: Build APK
+      - name: Build APK (fonts are bundled by the Gradle build)
         run: gradle assembleDebug --no-daemon
         working-directory: proj
       - uses: actions/upload-artifact@v4
